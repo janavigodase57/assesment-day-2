@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration Form</title>
+
+  <!-- CSS File Link -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Registration Form -->
+    <div class="form-box">
+      <h2 style="color:blue;">Student Registration Form</h2>
+
+      <form>
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter password" required>
+        </div>
+
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="Enter phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label>Date of Birth</label>
+          <input type="date" required>
+        </div>
+
+        <div class="form-group">
+          <label>Select Course</label>
+          <select required>
+            <option value="">-- Select Course --</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>React</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Gender</label>
+
+          <div class="gender">
+            <label>
+              <input type="radio" name="gender"> Male
+            </label>
+
+            <label>
+              <input type="radio" name="gender"> Female
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Address</label>
+          <textarea placeholder="Enter address"></textarea>
+        </div>
+
+        <button type="submit">Register</button>
+
+      </form>
+    </div>
+
+    <!-- Student Table -->
+    <div class="table-box">
+      <h2>Student Data Table</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>City</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rahul</td>
+            <td>HTML</td>
+            <td>Mumbai</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Sneha</td>
+            <td>CSS</td>
+            <td>Pune</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Amit</td>
+            <td>JavaScript</td>
+            <td>Nashik</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Priya</td>
+            <td>React</td>
+            <td>Nagpur</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+  </div>
+
+</body>
+</html>
